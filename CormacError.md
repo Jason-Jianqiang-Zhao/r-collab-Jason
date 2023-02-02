@@ -25,6 +25,12 @@ ncol(cars)
 
     ## [1] 2
 
+``` r
+dim(cars)
+```
+
+    ## [1] 50  2
+
 ## Including Plots
 
 You can also embed plots, for example:
