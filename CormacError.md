@@ -11,6 +11,7 @@ using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that
 includes both content as well as the output of any embedded R code
+<<<<<<< HEAD
 chunks within the document.
 
 ``` r
@@ -24,6 +25,15 @@ summary(cars)
     ##  Mean   :15.4   Mean   : 42.98  
     ##  3rd Qu.:19.0   3rd Qu.: 56.00  
     ##  Max.   :25.0   Max.   :120.00
+=======
+chunks within the document. You can embed an R code chunk like this:
+
+``` r
+ncol(cars)
+```
+
+    ## [1] 2
+>>>>>>> cb8f8a6f839dee73809cba023d067994587d4bcc
 
 ## Including Plots
 
